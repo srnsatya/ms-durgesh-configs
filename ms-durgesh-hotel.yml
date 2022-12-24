@@ -3,13 +3,17 @@ spring:
         activate:
             on-profile: test
 hotel:
-  registerOffice: delhi-test
-  ceo: Ritesh Agarwal-test
+  msversion: 2301
+  msenv: test
+  msrelease: 23.01
+  supportteam: QAteam
 ---
 spring:
     config:
         activate:
             on-profile: prod
 hotel:
-  registerOffice: delhi-prod
-  ceo: Ritesh Agarwal-prod
+  msversion: 2212
+  msenv: Prod
+  msrelease: 22.12
+  supportteam: SmartOps
