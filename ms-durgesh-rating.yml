@@ -1,1 +1,31 @@
 
+spring:
+    config:
+        activate:
+            on-profile: test
+rating:
+  msversion: 2301
+  msenv: test
+  msrelease: 23.01
+  supportteam: QAteam
+---
+spring:
+    config:
+        activate:
+            on-profile: prod
+rating:
+  msversion: 2212
+  msenv: Prod
+  msrelease: 22.12
+  supportteam: SmartOps
+---
+spring:
+    config:
+        activate:
+            on-profile: dev  
+  
+rating:
+  msversion: 2302
+  msenv: dev
+  msrelease: 23.02
+  supportteam: dcut
