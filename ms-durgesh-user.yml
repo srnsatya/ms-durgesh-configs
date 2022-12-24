@@ -3,7 +3,7 @@ spring:
     config:
         activate:
             on-profile: test
-rating:
+user:
   msversion: 2301
   msenv: testUser
   msrelease: 23.01
@@ -13,7 +13,7 @@ spring:
     config:
         activate:
             on-profile: prod
-rating:
+user:
   msversion: 2212
   msenv: ProdUser
   msrelease: 22.12
@@ -24,7 +24,7 @@ spring:
         activate:
             on-profile: dev  
   
-rating:
+user:
   msversion: 2302
   msenv: devUser
   msrelease: 23.02
