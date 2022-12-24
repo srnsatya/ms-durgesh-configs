@@ -1,4 +1,6 @@
-
+Spring:
+  application:
+    name: ms-durgesh-configserver
 eureka:
   instance:
     prefer-ip-address: true
