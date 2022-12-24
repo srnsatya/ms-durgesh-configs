@@ -1,3 +1,15 @@
+spring:
+    config:
+        activate:
+            on-profile: test
 hotel:
-  registerOffice: delhi
-  ceo: Ritesh Agarwal
+  registerOffice: delhi-test
+  ceo: Ritesh Agarwal-test
+---
+spring:
+    config:
+        activate:
+            on-profile: prod
+hotel:
+  registerOffice: delhi-prod
+  ceo: Ritesh Agarwal-prod
