@@ -1,5 +1,5 @@
 hotel:
-  msversion: 2301
-  msenv: test
-  msrelease: 23.01
-  supportteam: QAteam
+  msversion: 2302
+  msenv: dev
+  msrelease: 23.02
+  supportteam: dcut
