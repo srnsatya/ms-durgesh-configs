@@ -1,4 +1,5 @@
-
 hotel:
-  registerOffice: delhi-dev
-  ceo: Ritesh Agarwal
+  msversion: 2301
+  msenv: test
+  msrelease: 23.01
+  supportteam: QAteam
